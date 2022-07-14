@@ -96,7 +96,8 @@ console.log(b);
  var z =  x();
  console.log(z);
  z();
-                        /* output: 7 */
+//It will print the whole funtion y{syntax} which is returned by the function x                        
+/* output: 7 */
 // ----------------------------------
 
 
@@ -108,7 +109,7 @@ function x(){
     }
 }
 x();
-                        /* output:  */
+                        /* output: Ans: 6 6 6 6 6 6 */
 // ----------------------------------
 
 
@@ -124,8 +125,8 @@ function x(){
     }
 }
 x();
-                    /* output:  0
-                                1 2 3 4 5 */
+                    /* output: interview interview interview interview interview interview  
+                               0 1 2 3 4 5 */
 // -----------------------------------
 
 const person = {
