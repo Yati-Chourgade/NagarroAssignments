@@ -1,0 +1,15 @@
+#box{
+    background-color: bisque;
+    height:350px;
+    width:700px;
+    visibility: hidden;
+
+}
+
+body{
+    background-color: rgb(35, 35, 42);
+}
+
+#box.show{
+    visibility: visible;
+}
